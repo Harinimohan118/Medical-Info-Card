@@ -1,0 +1,40 @@
+medical-info-card/
+│
+├── 📁 assets/               # Images, icons, fonts
+│   ├── icons/
+│   ├── images/
+│   └── fonts/
+│
+├── 📁 components/           # Reusable UI components
+│   ├── Header.js
+│   ├── InfoCard.js
+│   ├── QRCodeDisplay.js
+│   └── EmergencyButton.js
+│
+├── 📁 screens/              # Main screens or views
+│   ├── HomeScreen.js
+│   ├── EditInfoScreen.js
+│   ├── QRScreen.js
+│   └── LockScreenView.js
+│
+├── 📁 services/             # Backend or API calls
+│   ├── storageService.js   # Local storage or cloud integration
+│   └── qrService.js        # QR code generation logic
+│
+├── 📁 data/                 # Static JSON, dummy data, user info model
+│   └── userInfo.json
+│
+├── 📁 utils/                # Helper functions
+│   ├── validators.js       # Input validations
+│   └── constants.js
+│
+├── 📁 styles/               # Global styles/themes
+│   └── theme.js
+│
+├── 📁 config/               # App config, environment variables
+│   └── appConfig.js
+│
+├── 📄 App.js                # App entry point
+├── 📄 package.json          # Node dependencies
+├── 📄 README.md             # Project overview & usage
+└── 📄 .gitignore
